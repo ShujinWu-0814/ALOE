@@ -5,7 +5,7 @@
 In this work, we train LLMs that can “interact to align”, essentially cultivating the meta-skill of LLMs to implicitly infer the unspoken personalized preferences of the current user through multi-turn conversations, and then dynamically align their following behaviors and responses to these inferred preferences. Our approach
 involves establishing a diverse pool of 3,310 distinct user personas using iterative self-generation. Then guided by these personas, we leverage multi-LLMs collaboration to develop a multi-turn preference dataset containing 3K+ multi-turn conversations in tree structures. We then finetune various LLMs using SFT and reinforcement learning.
 
-![ALOE](./ALOE.pdf)
+![ALOE](./ALOE.png)
 ## 🔧Requirements
 The required Python packages for running this repo are listed in [requirements.txt](./requirements.txt). To install these pacakages at one time, plaese run
 ```shell
