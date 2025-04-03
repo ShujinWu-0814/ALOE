@@ -1,4 +1,4 @@
-# Aligning LLMs with Individual Preferences via Interaction
+# Aligning LLMs with Individual Preferences via Interaction [COLING 2025]
 
 
 ## ✨Overview
@@ -52,3 +52,14 @@ To evaluate mistral after SFT on preferred response only, you should run
 python evaluation/eval_own.py --model mistral_sft_preferred
 ```
 If you want to evaluate mistral after SFT on rejected response, simply change --model mistral_sft_rejected' to '--model mistral_sft_rejected'.
+
+## 📚Citation
+If you use or extend our work, please consider citing our paper. Thank you for your support! 🥰
+```shell
+@article{wu2024aligning,
+  title={Aligning LLMs with Individual Preferences via Interaction},
+  author={Wu, Shujin and Fung, May and Qian, Cheng and Kim, Jeonghwan and Hakkani-Tur, Dilek and Ji, Heng},
+  journal={arXiv preprint arXiv:2410.03642},
+  year={2024}
+}
+```
